@@ -1,7 +1,6 @@
 import openai, json, os
 import numpy as np
-openai.api_key = os.environ["OPEN_AI_KEY"]
-#ambiguous sentences = I saw her duck; The chicken is ready to eat
+openai.api_key = os.environ["OPEN_AI_KEY"] 
 
 def Embedding(content, engine='text-similarity-ada-001'):
     content = content.encode(encoding='ASCII',errors='ignore').decode()
@@ -30,4 +29,24 @@ if __name__ == '__main__':
 
     print(json.dumps(scores, indent=4) + '\n')
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #ambiguous sentences = I saw her duck; The chicken is ready to eat
     #print(f"\"{your_word.upper()}\" typically falls under the category of \"{scores[0]['category'].upper()}\"")
