@@ -28,25 +28,3 @@ if __name__ == '__main__':
     scores = sorted(scores, key=lambda x: x['score'], reverse=True)  
 
     print(json.dumps(scores, indent=4) + '\n')
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    #ambiguous sentences = I saw her duck; The chicken is ready to eat
-    #print(f"\"{your_word.upper()}\" typically falls under the category of \"{scores[0]['category'].upper()}\"")
